@@ -1,0 +1,24 @@
+[2023-09-11 08:05:45,585] INFO _log() L187  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.225:5000 - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 08:05:45,587] INFO _log() L187  [33mPress CTRL+C to quit[0m - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 08:05:50,295] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 08:05:50] "[32mGET / HTTP/1.1[0m" 302 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 08:05:50,309] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 08:05:50] "[32mGET /openapi HTTP/1.1[0m" 308 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 08:05:50,335] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 08:05:50] "GET /openapi/ HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 08:05:50,548] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 08:05:50] "GET /openapi/static/images/swagger.svg HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 08:05:50,550] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 08:05:50] "GET /openapi/static/images/redoc.svg HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 08:05:50,555] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 08:05:50] "GET /openapi/static/images/rapidoc.svg HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 08:05:50,573] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 08:05:50] "GET /openapi/static/images/apidoc.svg HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 08:06:16,757] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 08:06:16] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 08:06:16,788] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 08:06:16] "GET /openapi/static/css/swagger-ui.css HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 08:06:16,808] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 08:06:16] "GET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 08:06:16,812] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 08:06:16] "GET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 08:06:16,953] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 08:06:16] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 08:06:16,969] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 08:06:16] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 08:06:25,073] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 08:06:25] "GET /buscacartas HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 08:06:28,507] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 08:06:28] "GET /buscacartas HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 08:06:40,126] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 08:06:40] "POST /adicionacarta HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 08:07:26,527] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 08:07:26] "POST /adicionacarta HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 08:07:33,968] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 08:07:33] "OPTIONS /deletacarta?nome_carta=Raio&nome_edicao=Beta&qualidade=Danificada(D)&idioma=Alemão&extra=Normal HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 08:07:33,988] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 08:07:33] "DELETE /deletacarta?nome_carta=Raio&nome_edicao=Beta&qualidade=Danificada(D)&idioma=Alemão&extra=Normal HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
